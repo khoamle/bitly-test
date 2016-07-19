@@ -2,7 +2,6 @@ require 'rails_helper'
 
 describe 'Product tour page' do
   before do
-    Capybara.current_driver = :selenium
     @product_tour_page = ProductTourPage.new
     @product_tour_page.load
   end
